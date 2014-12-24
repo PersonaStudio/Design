@@ -1,43 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" renderorder="right-down" width="60" height="60" tilewidth="32" tileheight="32">
- <tileset firstgid="1" name="Inq XP MT- Medieval Town" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="MedTown" tilewidth="32" tileheight="32">
   <image source="tileset collection/Inq XP MT- Medieval Town.png" trans="ff00ff" width="256" height="16704"/>
  </tileset>
- <tileset firstgid="4177" name="Inq XP MT - Mud" tilewidth="32" tileheight="32">
+ <tileset firstgid="4177" name="Mud" tilewidth="32" tileheight="32">
   <image source="tileset collection/Inq XP MT - Mud.png" trans="ff00ff" width="96" height="128"/>
  </tileset>
- <tileset firstgid="4189" name="Inq XP MT - Road" tilewidth="32" tileheight="32">
+ <tileset firstgid="4189" name="Road" tilewidth="32" tileheight="32">
   <image source="tileset collection/Inq XP MT - Road.png" trans="ff00ff" width="96" height="128"/>
  </tileset>
- <tileset firstgid="4201" name="tileset___citadelle_de_rennel_by_dal_obsidienne-d6ockia" tilewidth="32" tileheight="32">
+ <tileset firstgid="4201" name="Citadelle" tilewidth="32" tileheight="32">
   <image source="tileset collection/tileset___citadelle_de_rennel_by_dal_obsidienne-d6ockia.png" trans="ff00ff" width="256" height="5384"/>
  </tileset>
- <tileset firstgid="5545" name="Inq XP MT - Water3" tilewidth="32" tileheight="32">
+ <tileset firstgid="5545" name="Water" tilewidth="32" tileheight="32">
   <image source="tileset collection/Inq XP MT - Water3.png" width="384" height="128"/>
  </tileset>
- <tileset firstgid="5593" name="Inq XP MT - Dirt" tilewidth="32" tileheight="32">
+ <tileset firstgid="5593" name="Dirt" tilewidth="32" tileheight="32">
   <image source="tileset collection/Inq XP MT - Dirt.png" width="96" height="128"/>
  </tileset>
- <tileset firstgid="5605" name="Inq XP MT - Water1" tilewidth="32" tileheight="32">
+ <tileset firstgid="5605" name="Water1" tilewidth="32" tileheight="32">
   <image source="tileset collection/Inq XP MT - Water1.png" width="384" height="128"/>
  </tileset>
- <tileset firstgid="5653" name="Inq XP MT - Dirt(1)" tilewidth="32" tileheight="32">
+ <tileset firstgid="5653" name="Dirt1" tilewidth="32" tileheight="32">
   <image source="tileset collection/Inq XP MT - Dirt(1).png" width="96" height="128"/>
  </tileset>
- <tileset firstgid="5665" name="Inq XP MT - Water2" tilewidth="32" tileheight="32">
+ <tileset firstgid="5665" name="Water2" tilewidth="32" tileheight="32">
   <image source="tileset collection/Inq XP MT - Water2.png" width="384" height="128"/>
  </tileset>
- <tileset firstgid="5713" name="Inq XP MT - Water5" tilewidth="32" tileheight="32">
+ <tileset firstgid="5713" name="Water3" tilewidth="32" tileheight="32">
   <image source="tileset collection/Inq XP MT - Water5.png" width="32" height="32"/>
  </tileset>
- <tileset firstgid="5714" name="Inq XP MT - Water6" tilewidth="32" tileheight="32">
+ <tileset firstgid="5714" name="Water4" tilewidth="32" tileheight="32">
   <image source="tileset collection/Inq XP MT - Water6.png" width="32" height="32"/>
  </tileset>
- <tileset firstgid="5715" name="Inq XP MT - Dirt(2)" tilewidth="32" tileheight="32">
+ <tileset firstgid="5715" name="Dirt2" tilewidth="32" tileheight="32">
   <image source="tileset collection/Inq XP MT - Dirt(2).png" width="96" height="128"/>
  </tileset>
- <tileset firstgid="5727" name="(ROTATE)tileset___citadelle_de_rennel_by_dal_obsidienne-d6ockia copy" tilewidth="32" tileheight="32">
+ <tileset firstgid="5727" name="ROTATE_Citadelle" tilewidth="32" tileheight="32">
   <image source="tileset collection/(ROTATE)tileset___citadelle_de_rennel_by_dal_obsidienne-d6ockia copy.png" width="256" height="5384"/>
+ </tileset>
+ <tileset firstgid="7071" name="Human" tilewidth="32" tileheight="32">
+  <image source="tileset collection/list.png" trans="ff00ff" width="384" height="256"/>
  </tileset>
  <layer name="Ground" width="60" height="60">
   <data>
@@ -3444,7 +3447,7 @@
    <tile gid="1"/>
    <tile gid="1"/>
    <tile gid="5677"/>
-   <tile gid="1610618449"/>
+   <tile gid="5714"/>
    <tile gid="5690"/>
    <tile gid="5690"/>
    <tile gid="5690"/>
@@ -8177,9 +8180,9 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
+   <tile gid="4195"/>
+   <tile gid="4196"/>
+   <tile gid="4197"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="3217"/>
@@ -8237,9 +8240,9 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
+   <tile gid="4195"/>
+   <tile gid="4196"/>
+   <tile gid="4197"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -8297,9 +8300,9 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
+   <tile gid="4195"/>
+   <tile gid="4196"/>
+   <tile gid="4197"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -8357,9 +8360,9 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
+   <tile gid="4195"/>
+   <tile gid="4196"/>
+   <tile gid="4197"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -8417,9 +8420,9 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
+   <tile gid="4195"/>
+   <tile gid="4196"/>
+   <tile gid="4197"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="3222"/>
@@ -8477,9 +8480,9 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
+   <tile gid="4195"/>
+   <tile gid="4196"/>
+   <tile gid="4197"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -8537,9 +8540,9 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
+   <tile gid="4195"/>
+   <tile gid="4196"/>
+   <tile gid="4197"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -8597,9 +8600,9 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
+   <tile gid="4195"/>
+   <tile gid="4196"/>
+   <tile gid="4197"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -8657,9 +8660,9 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
+   <tile gid="4195"/>
+   <tile gid="4196"/>
+   <tile gid="4197"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -8717,9 +8720,9 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
+   <tile gid="4195"/>
+   <tile gid="4196"/>
+   <tile gid="4197"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -10851,6 +10854,9 @@
    <tile gid="0"/>
   </data>
  </layer>
+ <objectgroup name="playerStart">
+  <object type="playerStart" gid="7071" x="936" y="792"/>
+ </objectgroup>
  <layer name="Tree2" width="60" height="60">
   <data>
    <tile gid="0"/>
@@ -26197,9 +26203,9 @@
    <tile gid="2479"/>
    <tile gid="2480"/>
    <tile gid="0"/>
-   <tile gid="4195"/>
-   <tile gid="4196"/>
-   <tile gid="4197"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -26257,9 +26263,9 @@
    <tile gid="2487"/>
    <tile gid="2488"/>
    <tile gid="0"/>
-   <tile gid="4195"/>
-   <tile gid="4196"/>
-   <tile gid="4197"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -26317,9 +26323,9 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
-   <tile gid="4195"/>
-   <tile gid="4196"/>
-   <tile gid="4197"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -26377,9 +26383,9 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
-   <tile gid="4195"/>
-   <tile gid="4196"/>
-   <tile gid="4197"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -26437,9 +26443,9 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
-   <tile gid="4195"/>
-   <tile gid="4196"/>
-   <tile gid="4197"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -26497,9 +26503,9 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
-   <tile gid="4195"/>
-   <tile gid="4196"/>
-   <tile gid="4197"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -26557,9 +26563,9 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
-   <tile gid="4195"/>
-   <tile gid="4196"/>
-   <tile gid="4197"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -26617,9 +26623,6 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
-   <tile gid="4195"/>
-   <tile gid="4196"/>
-   <tile gid="4197"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -26677,9 +26680,6 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
-   <tile gid="4195"/>
-   <tile gid="4196"/>
-   <tile gid="4197"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -26737,9 +26737,15 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
-   <tile gid="4195"/>
-   <tile gid="4196"/>
-   <tile gid="4197"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -28871,7 +28877,7 @@
    <tile gid="0"/>
   </data>
  </layer>
- <layer name="Decoration2 " width="60" height="60">
+ <layer name="Decoration2" width="60" height="60">
   <data>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -31382,7 +31388,7 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
-   <tile gid="0"/>
+   <tile gid="1"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
